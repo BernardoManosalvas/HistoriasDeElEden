@@ -1,0 +1,367 @@
+body {
+  background: url("../IMG/FondoPC1.png") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+#indent {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+#indent2 {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.example {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.Contenedor {
+  display: grid;
+  grid-template-rows: auto 45vw 12vw 10vw 10vw 36vw 39vw 10vw 45vw 80px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "Header        Header"
+    "Nombre       Nombre"
+    "Conoce       Conoce"
+    "VACIO           VACIO"
+    "T2             T2"
+    "Gameplay      Gameplay"
+    "Texto         Texto"
+    "T3            T3"
+    "img           img"
+    "Footer        Footer";
+}
+
+.Contenedor1 {
+  font-family: 'Mountains of Christmas', cursive;
+  grid-area: Header;
+  overflow: hidden;
+  position: fixed;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  letter-spacing: 0.1vw;
+}
+
+#losLinks {
+  display: none;
+  text-align: center;
+  background: url("../IMG/FondoMENU.png");
+  background-size: cover;
+  width: 100%;
+}
+
+#losLinks a:hover {
+  text-decoration: underline;
+}
+
+.Contenedor1 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vw;
+  display: block;
+}
+
+#HAMBURGUESA {
+  width: 70px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#LOGOM {
+  display: block;
+  width: 60px;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+#dscrgs {
+  padding-bottom: 100vw;
+}
+
+#eleden {
+  padding-top: 10vw;
+}
+
+.Contenedor2 {
+  grid-area: Nombre;
+}
+
+h1 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  letter-spacing: 0.5vw;
+}
+
+#NOMBRE1 {
+  margin-top: 1.5vw;
+  font-size: 3.5vw;
+}
+
+#NOMBRE2 {
+  font-size: 5.5vw;
+}
+
+#LOGO {
+  width: 15vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10vw;
+  min-width: 150px;
+}
+
+.Contenedor3 {
+  grid-area: Conoce;
+  font-family: 'Mountains of Christmas', cursive;
+}
+
+#Conoce {
+  font-size: 1.5vw;
+  margin-top: 5vw;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.Contenedor4 {
+  grid-area: T2;
+}
+
+#titulo2 {
+  font-size: 2.5vw;
+}
+
+.Contenedor5 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  grid-area: Gameplay;
+  z-index: -1;
+  background-color: yellow;
+  opacity: 80%;
+}
+
+.Contenedor6 {
+  grid-area: Texto;
+  margin-top: 2vw;
+}
+
+#HDE {
+  font-size: 2vw;
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  letter-spacing: 0.5vw;
+}
+
+#Texto1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60vw;
+  margin-top: 3vw;
+  line-height: 2.5vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.2vw;
+}
+
+#DESARROLLADO {
+  font-family: 'Mountains of Christmas', cursive;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  margin-top: 4vw;
+  color: #F5EF84;
+}
+
+.Contenedor7 {
+  grid-area: T3;
+  margin-top: 3vw;
+}
+
+.Contenedor8 {
+  grid-area: img;
+  margin: auto;
+}
+
+.Carrusel1 {
+  width: 90%;
+  display: none;
+}
+
+/*Para los botones*/
+button {
+  font-style: italic;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Boton2 {
+  margin-left: 21vw;
+}
+
+.Contenedor8 img {
+  width: 60vw;
+}
+
+.Contenedor9 {
+  margin-top: 1vw;
+  grid-area: Footer;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Contenedor9 img {
+  width: 40px;
+  display: inline;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-right: 20px;
+}
+
+#IGLOGO {
+  margin-left: 43.5vw;
+}
+
+#YTLOGO {
+  margin-top: auto;
+  margin-bottom: 0.5vw;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*Para el RWD*/
+@media screen and (max-width:965px) {
+  body {
+    background: url("../IMG/FondoCEL1.png") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .Contenedor {
+    grid-template-rows: auto 650px 10px 200px 100px 200px 620px 100px 250px 80px;
+  }
+
+  #indent {
+    text-indent: 7vw;
+    font-size: 5vw;
+  }
+
+  #indent2 {
+    text-indent: 7vw;
+    font-size: 5vw;
+  }
+
+  .Contenedor1 a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 8vw;
+    display: block;
+  }
+
+  #NOMBRE1 {
+    margin-top: 1.5vw;
+    font-size: 50px;
+  }
+
+  #NOMBRE2 {
+    font-size: 75px;
+  }
+
+  #LOGO {
+    margin-top: 230px;
+    min-width: 150px;
+  }
+
+  #Conoce {
+    font-size: 20px;
+    margin-top: 0;
+  }
+
+  #titulo2 {
+    font-size: 28px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #HDE {
+    font-size: 25px;
+  }
+
+  #Texto1 {
+    width: 250px;
+    margin-top: 3vw;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  button {
+    font-style: italic;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  #Boton2 {
+    margin-left: 70px;
+  }
+
+  .Contenedor8 img {
+    width: 300px;
+  }
+
+  #IGLOGO {
+    margin-left: 25vw;
+  }
+
+  #losLinks {
+    display: none;
+    text-align: center;
+    background: url("../IMG/FondoMENU.png") center top no-repeat;
+    width: 100%;
+  }
+}

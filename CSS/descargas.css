@@ -1,0 +1,247 @@
+body {
+  background: url("../IMG/FondoPC2.png") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+#indent {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+#indent2 {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+.Contenedor {
+  display: grid;
+  grid-template-rows: 90px 20vw 22vw 17vw 80px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "Header        Header"
+    "Nombre        Nombre"
+    "T1            T1"
+    "Iconos        Iconos"
+    "Footer        Footer";
+}
+
+.Contenedor1 {
+  font-family: 'Mountains of Christmas', cursive;
+  grid-area: Header;
+  overflow: hidden;
+  position: fixed;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  letter-spacing: 0.1vw;
+  z-index: 1;
+}
+
+#losLinks {
+  display: none;
+  text-align: center;
+  background: url("../IMG/FondoMENU.png");
+  width: 100%;
+}
+
+#losLinks a:hover {
+  text-decoration: underline;
+}
+
+.Contenedor1 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vw;
+  display: block;
+}
+
+#HAMBURGUESA {
+  width: 70px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#LOGOM {
+  display: block;
+  width: 60px;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+#dscrgs {
+  padding-bottom: 100vw;
+}
+
+#eleden {
+  padding-top: 10vw;
+}
+
+.Contenedor2 {
+  grid-area: Nombre;
+  position: relative;
+  background: url("../IMG/FondoMENU.png") center 25% no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  letter-spacing: 0.5vw;
+}
+
+#TITULO {
+  margin-top: 13vw;
+  background: rgba(0, 0, 0, .8);
+  font-size: 2.8vw;
+}
+
+.Contenedor3 {
+  grid-area: T1;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 50vw;
+  margin-top: 5vw;
+  line-height: 2.5vw;
+  font-size: 1.3vw;
+  letter-spacing: 0.2vw;
+}
+
+.Contenedor4 {
+  grid-area: Iconos;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Contenedor4 img {
+  width: 13vw;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+#AS {
+  margin-left: 0;
+}
+
+.Contenedor5 {
+  margin-top: 1vw;
+  grid-area: Footer;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Contenedor5 img {
+  width: 40px;
+  display: inline;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-right: 20px;
+}
+
+#IGLOGO {
+  margin-left: 43.5vw;
+}
+
+#YTLOGO {
+  margin-top: auto;
+  margin-bottom: 0.5vw;
+}
+
+@media screen and (max-width:965px) {
+  body {
+    background: url("../IMG/FondoCEL2.png") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .Contenedor {
+    grid-template-rows: 90px 30vw 85vw 60vw 80px;;
+  }
+
+  #indent {
+    text-indent: 7vw;
+    font-size: 5vw;
+  }
+
+  #indent2 {
+    text-indent: 7vw;
+    font-size: 5vw;
+  }
+
+  .Contenedor1 a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 8vw;
+    display: block;
+  }
+
+  #losLinks {
+    display: none;
+    text-align: center;
+    background: url("../IMG/FondoMENU.png") center top no-repeat;
+    width: 100%;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+  }
+
+  #TITULO {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+  p {
+    width: 250px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+
+  .Contenedor4 {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  #GP, #SQ {
+    margin-left: 20vw;
+  }
+
+  #IGLOGO {
+    margin-left: 25vw;
+  }
+
+  .Contenedor4 img {
+    width: 80px;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

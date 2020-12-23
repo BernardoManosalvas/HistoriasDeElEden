@@ -1,0 +1,353 @@
+body {
+  background: url("../IMG/FondoPC2.png") center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 100%;
+  color: white;
+  margin: 0;
+}
+
+#indent {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+#indent2 {
+  text-indent: 7vw;
+  font-size: 1.5vw;
+}
+
+/* para quitar scroll bar */
+.example::-webkit-scrollbar {
+  display: none;
+  /*Chrome*/
+}
+
+.example {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+#losLinks {
+  display: none;
+  text-align: center;
+  background: url("../IMG/FondoMENU.png");
+  background-size: cover;
+  width: 100%;
+}
+
+#losLinks a:hover {
+  text-decoration: underline;
+}
+
+#HAMBURGUESA {
+  width: 70px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+#LOGOM {
+  display: block;
+  width: 60px;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+#dscrgs {
+  padding-bottom: 100vw;
+}
+
+#eleden {
+  padding-top: 10vw;
+}
+
+.Contenedor {
+  display: grid;
+  grid-template-rows: 80px 25vw 5vw 20vw 5vw 20vw 5vw 20vw 5vw 20vw 5vw 45vw 5vw 80px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "Header        Header"
+    "Titulo      Titulo"
+    "T0            T0"
+    "Contenido1    Contenido1"
+    "T1            T1"
+    "Subtitulo1    Subtitulo1"
+    "T2             T2"
+    "Contenido2     Contenido2"
+    "T3             T3"
+    "Subtitulo2    Subtitulo2"
+    "T4            T4"
+    "Contenido3     Contenido3"
+    "T5             T5"
+    "Footer        Footer";
+}
+
+/*Header*/
+.Contenedor1 {
+  font-family: 'Mountains of Christmas', cursive;
+  grid-area: Header;
+  overflow: hidden;
+  position: fixed;
+  background: rgba(0, 0, 0, 1);
+  width: 100%;
+  letter-spacing: 0.1vw;
+  z-index: 1;
+}
+
+#indent {
+  text-indent: 7vw;
+  font-size: 5vw;
+}
+
+#indent2 {
+  text-indent: 7vw;
+  font-size: 5vw;
+}
+
+.Contenedor1 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2vw;
+  display: block;
+}
+
+.ContenedorTitulo {
+  grid-area: Titulo;
+  position: relative;
+  background: url("../IMG/VINCULACION/vinculacion.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Contenido1 {
+  grid-area: Contenido1;
+  margin: auto;
+}
+
+.ContenedorSubtitulo1 {
+  grid-area: Subtitulo1;
+  position: relative;
+  background: url("../IMG/ENTREVISTAS/entrevistas.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.Contenido2 {
+  grid-area: Contenido2;
+  margin: auto;
+}
+
+.ContenedorSubtitulo2 {
+  grid-area: Subtitulo2;
+  position: relative;
+}
+
+.Contenido3 {
+  grid-area: Contenido3;
+  margin: auto;
+}
+
+.Contenido3 img {
+  width: 55vw;
+}
+
+.Carrusel1 {
+  width: 50%;
+  display: none;
+}
+
+/*Para los botones*/
+button {
+  font-style: italic;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.fondoTitulos {
+  margin-top: 13vw;
+  background: rgba(0, 0, 0, .8);
+  font-size: 2.8vw;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 50vw;
+  margin-top: 4vw;
+  line-height: 2.5vw;
+  font-size: 1.3vw;
+  letter-spacing: 0.2vw;
+}
+
+h1 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  letter-spacing: 0.5vw;
+}
+
+h2 {
+  font-family: 'Mountains of Christmas', cursive;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: block;
+  letter-spacing: 0.5vw;
+  font-size: 2vw;
+}
+
+#Boton2 {
+  margin-left: 20vw;
+}
+
+#Button3 {
+  margin-left: 17vw;
+}
+
+h3 {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2vw;
+  text-align: center;
+  display: block;
+  letter-spacing: 0.5vw;
+}
+
+.ContenedorFooter {
+  margin-top: 1vw;
+  grid-area: Footer;
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ContenedorFooter img {
+  width: 40px;
+  display: inline;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-right: 20px;
+}
+
+#IGLOGO {
+  margin-left: 43.5vw;
+}
+
+#YTLOGO {
+  margin-top: auto;
+  margin-bottom: 0.5vw;
+}
+
+@media screen and (max-width:965px) {
+  body {
+    background: url("../IMG/FondoCEL2.png") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .Contenedor1 a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 7vw;
+    display: block;
+  }
+
+  .Contenedor {
+    grid-template-rows: 80px 30vw 5vw 120vw 5vw 30vw 5vw 120vw 5vw 20vw 5vw 65vw 5vw 80px;
+  }
+
+  .fondoTitulos {
+    margin-top: 60px;
+    background: rgba(0, 0, 0, .8);
+    font-size: 5vw;
+  }
+
+  .Contenido3 img {
+    width: 80vw;
+  }
+
+  .Contenido3 {
+    margin-top: 10px;
+  }
+
+  iframe {
+    width: 300px;
+  }
+
+  #losLinks {
+    display: none;
+    text-align: center;
+    background: url("../IMG/FondoMENU.png") center top no-repeat;
+    width: 100%;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+  }
+
+  p {
+    width: 250px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+
+  h2 {
+    letter-spacing: 5px;
+    font-size: 25px;
+  }
+
+  button {
+    font-style: italic;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  #Button3 {
+    margin-left: 25vw;
+  }
+
+  #Boton2 {
+    margin-left: 20vw;
+  }
+
+  h3 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+
+  #IGLOGO {
+    margin-left: 27vw;
+  }
+}
