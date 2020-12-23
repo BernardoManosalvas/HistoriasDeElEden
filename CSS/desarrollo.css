@@ -154,6 +154,14 @@ p {
   position: relative;
 }
 
+#Boton3 {
+  margin-left: 27vw;
+}
+
+#Boton5 {
+  margin-left: 22vw;
+}
+
 h2 {
   font-family: 'Mountains of Christmas', cursive;
   text-align: center;
